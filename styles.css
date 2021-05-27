@@ -1,0 +1,652 @@
+@charset "UTF-8";
+
+/**
+ * @author Daphnee Martel <2061698@csfoy.ca>
+ * TABLE DES MATIERES
+ * ROOT
+ * Charte typographique
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Be+Vietnam:400,700,500,800');
+
+
+:root {
+    --black:
+            rgba(0, 0, 0, 1);
+    --gray:
+            rgba(150, 152, 141, 1);
+    --ziggurat:
+            rgba(187, 210, 224, 0.698);
+    --geyser:
+            rgba(207, 223, 233, 1);
+    --swirl:
+            rgba(213, 204, 199, 1);
+    --equator:
+            rgba(217, 187, 99, 0.502);
+    --wafer:
+            rgba(219, 201, 197, 0.698);
+    --moon-mist:
+            rgba(219, 217, 204, 1);
+    --white:
+            rgba(255, 255, 255, 1);
+
+    --font-size-m: 16px;
+    --font-size-l: 19px;
+    --font-size-xl: 20px;
+    --font-size-xxl: 25px;
+    --font-size-xxxl: 30px;
+    --font-size-xxxxl: 40px;
+    --font-size-xxxxxl: 42px;
+    --font-size-xxxxxxl: 50px;
+    --font-size-xxxxxxxl: 100px;
+
+    --font-family-be_vietnam: "Be Vietnam";
+}
+.bevietnam-normal-black-19px {
+    color: var(--black);
+    font-family: var(--font-family-be_vietnam);
+    font-size: var(--font-size-l);
+    font-weight: 400;
+    font-style: normal;
+}
+.bevietnam-normal-white-19px {
+    font-family: var(--font-family-be_vietnam);
+    font-size: var(--font-size-l);
+    font-weight: 400;
+    font-style: normal;
+}
+.bevietnam-medium-black-16px {
+    color: var(--black);
+    font-family: var(--font-family-be_vietnam);
+    font-size: var(--font-size-m);
+    font-weight: 500;
+    font-style: normal;
+}
+.bevietnam-bold-black-40px {
+    color: var(--black);
+    font-family: var(--font-family-be_vietnam);
+    font-size: var(--font-size-xxxxl);
+    font-weight: 700;
+    font-style: normal;
+}
+.bevietnam-bold-black-20px {
+    color: var(--black);
+    font-family: var(--font-family-be_vietnam);
+    font-size: var(--font-size-xl);
+    font-weight: 700;
+    font-style: normal;
+}
+.bevietnam-bold-black-25px {
+    color: var(--black);
+    font-family: var(--font-family-be_vietnam);
+    font-size: var(--font-size-xxl);
+    font-weight: 700;
+    font-style: normal;
+}
+.bevietnam-extra-bold-black-42px {
+    color: var(--black);
+    font-family: var(--font-family-be_vietnam);
+    font-size: var(--font-size-xxxxxl);
+    font-weight: 800;
+    font-style: normal;
+}
+.bevietnam-normal-black-16px {
+    color: var(--black);
+    font-family: var(--font-family-be_vietnam);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    font-style: normal;
+}
+.bevietnam-bold-black-50px {
+    color: var(--black);
+    font-family: var(--font-family-be_vietnam);
+    font-size: var(--font-size-xxxxxxl);
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+
+.design-scandinave-table {
+    align-items: center;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    height: 7886px;
+    mix-blend-mode: normal;
+    padding: 0 206px;
+    width: 1440px;
+}
+.design-scandinave-table .cercleheaderbleu {
+    background-color: var(--ziggurat);
+    border-radius: 373px;
+    height: 660px;
+    left: 340px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0;
+    width: 660px;
+}
+.design-scandinave-table .cerclejaunedeco {
+    background-color: var(--equator);
+    border-radius: 330px;
+    height: 660px;
+    left: 342px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0;
+    width: 660px;
+}
+.design-scandinave-table .cerclerosemeubles {
+    background-color: var(--wafer);
+    border-radius: 222.5px;
+    height: 445px;
+    left: 152px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 117px;
+    width: 445px;
+}
+.design-scandinave-table .cercleroseorigines {
+    background-color: var(--wafer);
+    border-radius: 160px;
+    height: 320px;
+    left: 340px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0;
+    width: 320px;
+}
+.design-scandinave-table .citationcouleurs {
+    left: 0;
+    letter-spacing: 0;
+    line-height: 47.6px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 490px;
+    width: 321px;
+}
+.design-scandinave-table .citationdeco {
+    left: 336px;
+    letter-spacing: 0;
+    line-height: 47.6px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 150px;
+    width: 683px;
+}
+.design-scandinave-table .citationmeubles {
+    left: 342px;
+    letter-spacing: 0;
+    line-height: 47.6px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 181px;
+    width: 322px;
+}
+.design-scandinave-table .filetcouleurs {
+    height: 663px;
+    left: 318px;
+    position: absolute;
+    top: 84px;
+    width: 4px;
+}
+.design-scandinave-table .filetdeco {
+    height: 919px;
+    left: 319px;
+    position: absolute;
+    top: 159px;
+    width: 4px;
+}
+.design-scandinave-table .flex-col {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    min-height: 616px;
+    width: 660px;
+}
+.design-scandinave-table .flex-col-1 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    min-height: 490px;
+    width: 320px;
+}
+.design-scandinave-table .flex-row {
+    align-items: flex-start;
+    display: flex;
+    min-width: 490px;
+}
+.design-scandinave-table .flex-row-1 {
+    align-items: flex-start;
+    display: flex;
+    margin-left: 1px;
+    margin-top: 20px;
+    min-width: 489px;
+}
+.design-scandinave-table .flex-row-2 {
+    align-items: flex-start;
+    display: flex;
+    height: 616px;
+    min-width: 995px;
+}
+.design-scandinave-table .flex-row-3 {
+    align-items: flex-start;
+    display: flex;
+    margin-left: -0.08px;
+    margin-top: 11px;
+    min-width: 323px;
+}
+.design-scandinave-table .h1 {
+    color: var(--black);
+    font-family: var(--font-family-be_vietnam);
+    font-size: var(--font-size-xxxxxxxl);
+    font-weight: 800;
+    left: 424px;
+    letter-spacing: 0;
+    line-height: 95.4px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 671px;
+}
+.design-scandinave-table .h2deco {
+    left: 0;
+    letter-spacing: 0;
+    line-height: 55px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 456px;
+    width: 409px;
+}
+.design-scandinave-table .h2origines {
+    left: 0;
+    letter-spacing: 0;
+    line-height: 55px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 52px;
+}
+.design-scandinave-table .h2scandinave {
+    letter-spacing: 0;
+    line-height: 55px;
+    min-height: 110px;
+    mix-blend-mode: normal;
+    width: 660px;
+}
+.design-scandinave-table .h3accessoires {
+    left: 0;
+    letter-spacing: 0;
+    line-height: 29.2px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 363px;
+    width: 237px;
+}
+.design-scandinave-table .h3couleurs {
+    left: 340px;
+    letter-spacing: 0;
+    line-height: 29.2px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0;
+    width: 237px;
+}
+.design-scandinave-table .h3meubles {
+    letter-spacing: 0;
+    line-height: 29.2px;
+    min-height: 65px;
+    mix-blend-mode: normal;
+    width: 237px;
+}
+.design-scandinave-table .header {
+    align-items: flex-start;
+    align-self: flex-start;
+    display: flex;
+    margin-left: 5px;
+    min-width: 1004px;
+}
+.design-scandinave-table .image {
+    height: 150px;
+    margin-left: 20px;
+    mix-blend-mode: normal;
+    width: 150px;
+}
+.design-scandinave-table .imageaccessoires {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    left: 677px;
+    min-height: 915px;
+    position: absolute;
+    top: 85px;
+    width: 323px;
+}
+.design-scandinave-table .imagecousintapis {
+    height: 152px;
+    margin-left: 12px;
+    mix-blend-mode: normal;
+    object-fit: cover;
+    width: 100px;
+}
+.design-scandinave-table .imagedeco {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    left: 512px;
+    min-height: 490px;
+    position: absolute;
+    top: 765px;
+    width: 490px;
+}
+.design-scandinave-table .imagefourruredeco {
+    height: 320px;
+    mix-blend-mode: normal;
+    width: 150px;
+}
+.design-scandinave-table .imageh3meubles {
+    height: 745px;
+    left: 0;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0;
+    width: 322px;
+}
+.design-scandinave-table .imageheader {
+    height: 746px;
+    left: 0;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 189px;
+    width: 747px;
+}
+.design-scandinave-table .imagelumiereaccessoires {
+    height: 534px;
+    margin-left: -0.06px;
+    mix-blend-mode: normal;
+    object-fit: cover;
+    width: 323px;
+}
+.design-scandinave-table .imagemacramegrande {
+    height: 206px;
+    margin-left: -0.06px;
+    margin-top: 12px;
+    mix-blend-mode: normal;
+    object-fit: cover;
+    width: 323px;
+}
+.design-scandinave-table .imagemacramep {
+    height: 152px;
+    mix-blend-mode: normal;
+    object-fit: cover;
+    width: 99px;
+}
+.design-scandinave-table .imagescandinave {
+    height: 408px;
+    left: 85px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0;
+    width: 235px;
+}
+.design-scandinave-table .imageschaisefourmi {
+    height: 490px;
+    left: 335px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 85px;
+    width: 665px;
+}
+.design-scandinave-table .imageschandelledeco {
+    height: 320px;
+    margin-left: 20px;
+    mix-blend-mode: normal;
+    width: 320px;
+}
+.design-scandinave-table .imagesplusieursplantes {
+    height: 150px;
+    mix-blend-mode: normal;
+    object-fit: cover;
+    width: 149px;
+}
+.design-scandinave-table .imagetasseplante {
+    height: 152px;
+    margin-left: 12px;
+    mix-blend-mode: normal;
+    width: 100px;
+}
+.design-scandinave-table .introavech1 {
+    color: var(--black);
+    font-family: var(--font-family-be_vietnam);
+    font-size: var(--font-size-xxxl2);
+    font-weight: 500;
+    left: 2px;
+    letter-spacing: 0;
+    line-height: 32px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 949px;
+    width: 662px;
+}
+.design-scandinave-table .legendecitationima {
+    left: 649px;
+    letter-spacing: 0;
+    line-height: 47.6px;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: right;
+    top: 532px;
+    width: 353px;
+}
+.design-scandinave-table .overlap-group {
+    height: 745px;
+    margin-left: 18px;
+    position: relative;
+    width: 664px;
+}
+.design-scandinave-table .overlap-group-1 {
+    height: 1255px;
+    position: relative;
+    width: 1000px;
+}
+.design-scandinave-table .overlap-group1 {
+    height: 490px;
+    margin-top: 8px;
+    position: relative;
+    width: 320px;
+}
+.design-scandinave-table .overlap-group2 {
+    height: 915px;
+    position: relative;
+    width: 1002px;
+}
+.design-scandinave-table .overlap-group3 {
+    height: 1085px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1000px;
+}
+.design-scandinave-table .overlap-group4 {
+    height: 1065px;
+    position: relative;
+    width: 1002px;
+}
+.design-scandinave-table .overlap-group5 {
+    height: 1156px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1019px;
+}
+.design-scandinave-table .pavech2deco {
+    left: 0;
+    letter-spacing: 0;
+    line-height: 25px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 581px;
+    width: 323px;
+}
+.design-scandinave-table .pavech2origines {
+    left: 0;
+    letter-spacing: 0;
+    line-height: 19px;
+    position: absolute;
+    top: 217px;
+    width: 336px;
+}
+.design-scandinave-table .pavech2scandinave {
+    letter-spacing: 0;
+    line-height: 25px;
+    margin-top: 16px;
+    min-height: 490px;
+    mix-blend-mode: normal;
+    width: 660px;
+}
+.design-scandinave-table .pavech3 {
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-top: 20px;
+    min-height: 405px;
+    mix-blend-mode: normal;
+    width: 320px;
+}
+.design-scandinave-table .pavech3accessoire {
+    left: 0;
+    letter-spacing: 0;
+    line-height: 20px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 449px;
+    width: 654px;
+}
+.design-scandinave-table .pavech3couleurs {
+    left: 346px;
+    letter-spacing: 0;
+    line-height: 20px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 84px;
+    width: 656px;
+}
+.design-scandinave-table .rectanglebleuaccessoires {
+    background-color: var(--geyser);
+    height: 1085px;
+    left: 339px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0;
+    transform: rotate(180deg);
+    width: 661px;
+}
+.design-scandinave-table .rectanglebleudeco {
+    background-color: var(--geyser);
+    height: 320px;
+    left: 2px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 340px;
+    width: 1000px;
+}
+.design-scandinave-table .rectangleheaderbrun {
+    background-color: var(--swirl);
+    height: 1255px;
+    left: 0;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0;
+    width: 407px;
+}
+.design-scandinave-table .rectanglevertcouleurs {
+    background-color: var(--moon-mist);
+    height: 288px;
+    left: 0;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 33px;
+    width: 996px;
+}
+.design-scandinave-table .rectanglevertorigines {
+    background-color: var(--moon-mist);
+    height: 490px;
+    left: 0;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 170px;
+    width: 659px;
+}
+.design-scandinave-table .rectanglevertscandinave {
+    background-color: var(--gray);
+    height: 405px;
+    left: 0;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 85px;
+    width: 235px;
+}
+.design-scandinave-table .section01scandinave {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-right: 11.0px;
+    margin-top: 96px;
+    min-height: 3814px;
+    width: 1005px;
+}
+.design-scandinave-table .sectiondeco {
+    align-self: flex-end;
+    height: 1255px;
+    margin-top: 125px;
+    position: relative;
+    width: 1023px;
+}
+.design-scandinave-table .sectionorigines {
+    align-items: flex-start;
+    display: flex;
+    margin-right: 8.0px;
+    margin-top: 190px;
+    min-width: 1006px;
+}
+.design-scandinave-table .sous-sectionaccessoitres {
+    height: 1085px;
+    margin-left: 1px;
+    margin-top: 190px;
+    position: relative;
+    width: 1004px;
+}
+.design-scandinave-table .sous-sectioncouleurs {
+    align-items: flex-start;
+    display: flex;
+    margin-left: 1px;
+    margin-top: 190px;
+    min-width: 1006px;
+}
+.design-scandinave-table .sous-sectionmeubles {
+    align-items: flex-end;
+    display: flex;
+    margin-left: 1px;
+    margin-top: 73px;
+    min-width: 1006px;
+}
+.container-center-horizontal {
+    pointer-events: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+.container-center-horizontal > * {
+    pointer-events: auto;
+    flex-shrink: 0;
+}
+.hidden,
+.hidden * {
+    visibility: hidden;
+    pointer-events: none;
+}
+.screen a {
+    text-decoration: none;
+    display: contents;
+}
